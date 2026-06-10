@@ -1,41 +1,20 @@
-# My-AI-Assistan-chatbot
-I-powered chatbot for real-time conversations and intelligent user interaction.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/24cd258e-b8f4-4ebe-bed1-7b4d34c17a69
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-# AI Assistant Chatbot 🤖
-
-An intelligent AI-powered chatbot designed to interact with users through natural conversations and provide helpful responses in real time.
-
-## Features
-- Real-time conversation
-- User-friendly interface
-- AI-generated responses
-- Fast and responsive design
-- Interactive chat experience
-
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- AI Integration
-
-## Project Goal
-The goal of this project is to create a smart virtual assistant capable of answering user queries and improving user interaction through AI-based communication.
-
-## Installation
-1. Clone the repository
-2. Open the project folder
-3. Install dependencies (if required)
-4. Run the project locally
-
-## Usage
-Start the application and begin chatting with the AI assistant.
-
-## Future Improvements
-- Voice interaction
-- Better response accuracy
-- Multi-language support
-- Advanced AI features
-
-## Author
-Zubair Ali Lashari
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
